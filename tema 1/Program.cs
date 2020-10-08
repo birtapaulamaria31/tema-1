@@ -11,8 +11,10 @@ namespace tema_1
         static void Main(string[] args)
         {
             int n, t;
+            Console.WriteLine("Introduceti un numar natural n");
             n= int.Parse(Console.ReadLine());
-            Console.WriteLine(Math.Log(n, 2) * 1.5);
+           
+            Console.WriteLine("Numarul de ani in care puterea de calcul creste de n ori este: {0}",Math.Log(n, 2) * 1.5);
             Console.ReadKey();
         }
     }
