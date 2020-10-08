@@ -10,7 +10,10 @@ namespace tema_1
     {
         static void Main(string[] args)
         {
-
+            int n, t;
+            n= int.Parse(Console.ReadLine());
+            Console.WriteLine(Math.Log(n, 2) * 1.5);
+            Console.ReadKey();
         }
     }
 }
